@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Star, Zap, Trophy } from "lucide-react";
+import ligaLogo from "@/assets/koelsche-liga-logo.png";
 
 const KoelscheLiga = () => (
   <Layout>
