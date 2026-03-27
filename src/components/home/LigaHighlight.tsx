@@ -11,9 +11,7 @@ const LigaHighlight = () => (
     </div>
     <div className="container-tight relative">
       <div className="max-w-3xl mx-auto text-center">
-        <span className="inline-block bg-energy text-energy-foreground text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-6">
-          Highlight
-        </span>
+        <img src={ligaLogo} alt="Kölsche Footvolley Liga" className="h-32 sm:h-40 mx-auto mb-6 invert" />
         <h2 className="text-3xl sm:text-4xl lg:text-6xl font-black mb-6">
           Kölsche Footvolley Liga
         </h2>
