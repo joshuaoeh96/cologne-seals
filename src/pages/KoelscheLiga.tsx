@@ -1,13 +1,14 @@
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Users, Star, Zap, Trophy } from "lucide-react";
+import ligaLogo from "@/assets/koelsche-liga-logo.png";
 
 const KoelscheLiga = () => (
   <Layout>
     <section className="section-padding">
       <div className="container-tight">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <span className="inline-block bg-energy text-energy-foreground text-xs font-bold uppercase tracking-widest px-4 py-1.5 rounded-full mb-4">Highlight</span>
+          <img src={ligaLogo} alt="Kölsche Footvolley Liga" className="h-36 sm:h-48 mx-auto mb-6" />
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black mt-2 mb-6">Kölsche Footvolley Liga</h1>
           <p className="text-lg text-muted-foreground">
             Die offene Liga für Köln. Anfänger:innen und Fortgeschrittene spielen zusammen – kein Vereinsmitglied nötig.
