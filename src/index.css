@@ -6,7 +6,7 @@
 
 @layer base {
   :root {
-    --background: 40 33% 97%;
+    --background: 0 0% 98%;
     --foreground: 0 0% 8%;
 
     --card: 0 0% 100%;
@@ -18,39 +18,42 @@
     --primary: 0 0% 8%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 40 30% 92%;
+    --secondary: 0 5% 94%;
     --secondary-foreground: 0 0% 8%;
 
-    --muted: 40 20% 94%;
+    --muted: 0 3% 94%;
     --muted-foreground: 0 0% 40%;
 
-    --accent: 24 100% 50%;
+    --accent: 352 80% 52%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 40 20% 88%;
-    --input: 40 20% 88%;
-    --ring: 24 100% 50%;
+    --border: 0 5% 88%;
+    --input: 0 5% 88%;
+    --ring: 352 80% 52%;
 
     --radius: 0.75rem;
 
-    --sand: 40 33% 93%;
-    --sand-dark: 35 25% 82%;
+    --sand: 20 20% 95%;
+    --sand-dark: 15 15% 85%;
     --turf: 142 40% 45%;
     --turf-foreground: 0 0% 100%;
-    --energy: 24 100% 50%;
+    --energy: 352 80% 52%;
     --energy-foreground: 0 0% 100%;
+    --cologne-red: 352 80% 52%;
+    --cologne-red-light: 352 70% 62%;
+    --cologne-dark: 0 0% 12%;
 
     --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-foreground: 0 5% 26%;
+    --sidebar-primary: 0 0% 10%;
     --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-accent: 0 5% 96%;
+    --sidebar-accent-foreground: 0 0% 10%;
+    --sidebar-border: 0 5% 91%;
+    --sidebar-ring: 352 80% 52%;
   }
 }
 
@@ -71,7 +74,7 @@
     @apply bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70;
   }
   .text-gradient-energy {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-energy to-[hsl(35,100%,55%)];
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-energy to-[hsl(352,70%,62%)];
   }
   .section-padding {
     @apply px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24;
