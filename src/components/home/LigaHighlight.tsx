@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Star, Users, Zap } from "lucide-react";
+import ligaLogo from "@/assets/koelsche-liga-logo.png";
 
 const LigaHighlight = () => (
   <section className="section-padding bg-primary text-primary-foreground overflow-hidden relative">
