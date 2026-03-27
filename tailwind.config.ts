@@ -62,6 +62,11 @@ export default {
           DEFAULT: "hsl(var(--energy))",
           foreground: "hsl(var(--energy-foreground))",
         },
+        cologne: {
+          red: "hsl(var(--cologne-red))",
+          "red-light": "hsl(var(--cologne-red-light))",
+          dark: "hsl(var(--cologne-dark))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
