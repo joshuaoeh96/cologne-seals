@@ -22,12 +22,12 @@ const HeroSection = () => (
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Link to="/mitglied-werden">
-            <Button size="lg" className="bg-energy text-energy-foreground hover:bg-energy/90 rounded-full px-8 font-bold text-base h-14 gap-2">
+            <Button size="lg" className="bg-energy text-energy-foreground hover:bg-energy/90 rounded-full px-8 font-bold text-base h-14 gap-2 shadow-lg">
               Jetzt mitmachen <ArrowRight className="h-5 w-5" />
             </Button>
           </Link>
           <Link to="/training">
-            <Button size="lg" variant="outline" className="rounded-full px-8 font-bold text-base h-14 border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
+            <Button size="lg" className="rounded-full px-8 font-bold text-base h-14 bg-white text-foreground hover:bg-white/90 shadow-lg">
               Training ausprobieren
             </Button>
           </Link>
