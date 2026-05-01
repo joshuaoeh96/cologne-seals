@@ -19,7 +19,7 @@ const WhatIsFootvolley = () => (
             {[
               { num: "2v2", label: "Spielformat" },
               { num: "🏖️", label: "Im Sand" },
-              { num: "⚽", label: "Nur mit Fuß" },
+              { num: "⚽", label: "Nur mit Fuß und Kopf" },
             ].map((s) => (
               <div key={s.label} className="text-center p-4 bg-sand rounded-xl">
                 <div className="text-2xl font-black mb-1">{s.num}</div>
