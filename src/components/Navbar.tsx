@@ -38,11 +38,11 @@ const Navbar = () => {
               {item.label}
             </Link>
           ))}
-          <Link to="/mitglied-werden">
+          <a href="https://formular.vereinsplaner.com/15c4718f-93fb-41b4-9380-291042c5ef81" target="_blank" rel="noopener noreferrer">
             <Button className="bg-energy text-energy-foreground hover:bg-energy/90 font-semibold rounded-full px-6">
               Mitglied werden
             </Button>
-          </Link>
+          </a>
         </div>
 
         {/* Mobile toggle */}
@@ -65,11 +65,11 @@ const Navbar = () => {
                 {item.label}
               </Link>
             ))}
-            <Link to="/mitglied-werden" onClick={() => setIsOpen(false)}>
+            <a href="https://formular.vereinsplaner.com/15c4718f-93fb-41b4-9380-291042c5ef81" target="_blank" rel="noopener noreferrer" onClick={() => setIsOpen(false)}>
               <Button className="w-full bg-energy text-energy-foreground hover:bg-energy/90 font-semibold rounded-full mt-2">
                 Mitglied werden
               </Button>
-            </Link>
+            </a>
           </div>
         </div>
       )}

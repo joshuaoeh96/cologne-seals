@@ -13,11 +13,11 @@ const CTASection = () => (
           Meld dich an, komm zum Training und werde Teil unserer Community. Egal ob Anfänger:in oder Profi.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link to="/mitglied-werden">
-            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 font-bold text-base h-14 gap-2">
+          <a href="https://formular.vereinsplaner.com/15c4718f-93fb-41b4-9380-291042c5ef81" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 rounded-full px-8 font-bold text-base h-14 gap-2 w-full">
               Mitglied werden <ArrowRight className="h-5 w-5" />
             </Button>
-          </Link>
+          </a>
           <Link to="/training">
             <Button size="lg" className="rounded-full px-8 font-bold text-base h-14 bg-white text-foreground hover:bg-white/90 shadow-lg">
               Erstmal reinschauen
