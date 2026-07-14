@@ -28,7 +28,7 @@ const MitgliedWerden = () => (
                 </li>
               ))}
             </ul>
-            <a href="https://vereinsplaner.de" target="_blank" rel="noopener noreferrer">
+            <a href="https://formular.vereinsplaner.com/15c4718f-93fb-41b4-9380-291042c5ef81" target="_blank" rel="noopener noreferrer">
               <Button className="w-full bg-energy text-energy-foreground hover:bg-energy/90 rounded-full font-bold h-12 gap-2">
                 Jetzt anmelden <ArrowRight className="h-4 w-4" />
               </Button>
@@ -46,7 +46,7 @@ const MitgliedWerden = () => (
                 </li>
               ))}
             </ul>
-            <a href="https://vereinsplaner.de" target="_blank" rel="noopener noreferrer">
+            <a href="https://formular.vereinsplaner.com/15c4718f-93fb-41b4-9380-291042c5ef81" target="_blank" rel="noopener noreferrer">
               <Button className="w-full bg-energy text-energy-foreground hover:bg-energy/90 rounded-full font-bold h-12 gap-2">
                 Jetzt anmelden <ArrowRight className="h-4 w-4" />
               </Button>
@@ -57,7 +57,7 @@ const MitgliedWerden = () => (
         <div className="bg-sand rounded-2xl p-8 text-center">
           <h3 className="text-xl font-bold mb-2">Passive Mitgliedschaft</h3>
           <p className="text-muted-foreground mb-4">Du willst uns unterstützen, ohne aktiv zu spielen? Werde passives Mitglied und hilf uns, Footvolley in Köln wachsen zu lassen.</p>
-          <a href="https://vereinsplaner.de" target="_blank" rel="noopener noreferrer">
+          <a href="https://formular.vereinsplaner.com/15c4718f-93fb-41b4-9380-291042c5ef81" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" className="rounded-full px-6 font-semibold">Passiv beitreten</Button>
           </a>
         </div>
